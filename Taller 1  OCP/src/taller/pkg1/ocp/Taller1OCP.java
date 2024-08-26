@@ -15,9 +15,9 @@ public class Taller1OCP {
      */
     public static void main(String[] args) {
         //instancias
-        EnvioEstandar envioEstandar = new EnvioEstandar(30, 80);
-        EnvioInternacional envioInternacional = new EnvioInternacional(41, 33);
-        EnvioExpress envioExpress = new EnvioExpress(6, 65);
+        Envio envioEstandar = new EnvioEstandar(30, 80);
+        Envio envioInternacional = new EnvioInternacional(41, 33);
+        Envio envioExpress = new EnvioExpress(6, 65);
         CalcularPrecioEnvio calcular = new CalcularPrecioEnvio();
         
         //calcular los precios de cada envio y mostarlos
