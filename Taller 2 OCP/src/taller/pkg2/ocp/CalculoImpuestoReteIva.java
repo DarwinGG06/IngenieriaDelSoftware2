@@ -9,6 +9,8 @@ package taller.pkg2.ocp;
  * @author darwi
  */
 public class CalculoImpuestoReteIva extends Calculo {
+    
+    private float porcentajeReteIva;
 
     public CalculoImpuestoReteIva(String producto, int cantidad, int precio) {
         super(producto, cantidad, precio);
@@ -19,7 +21,4 @@ public class CalculoImpuestoReteIva extends Calculo {
     double factura() {
         return this.getPrecio() * 0.10;
     }
-    
-    
-    
 }

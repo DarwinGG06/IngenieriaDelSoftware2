@@ -19,6 +19,7 @@ public class Taller2OCP {
         Calculo calculoReteIva = new CalculoImpuestoReteIva("pollo", 5, 5000);
         Calculo calculoIvaSaludable = new CalculoImpuestoSaludable("pollo", 5, 5000);
         
+        //Objeto factura
         Factura calcularFactura = new Factura();
         
         //calcular los precios
