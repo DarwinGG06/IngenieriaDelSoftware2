@@ -18,4 +18,8 @@ public class UsuarioFun {
     public void enviarCorreo(){
         servicioDeNotificaciones.enviarCorreo();
     }
+    
+    public void enviarSMS() {
+        servicioDeNotificaciones.enviarSMS();
+    }
 }

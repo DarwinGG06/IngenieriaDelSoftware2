@@ -9,5 +9,6 @@ package taller.pkg1.dip;
  * @author darwi
  */
 public interface IServicioDeNotificaciones {
-    public void enviarCorreo();   
+    public void enviarCorreo();  
+    public void enviarSMS();
 }

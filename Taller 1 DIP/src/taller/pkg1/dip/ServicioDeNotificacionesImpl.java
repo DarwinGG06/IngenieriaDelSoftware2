@@ -15,4 +15,9 @@ public class ServicioDeNotificacionesImpl implements IServicioDeNotificaciones{
         System.out.println("Estoy enviadno el correo");
     }
     
+    @Override
+    public void enviarSMS() {
+        System.out.println("Estoy enviadno el SMS");
+    }
+    
 }
